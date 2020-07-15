@@ -1,0 +1,55 @@
+@media(max-width: 374px) {
+  h1, h3  {
+    width: $container-width - 41.5 * $padding;
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  h3 {
+    line-height: 28px;
+  }
+
+  #our-services h3 {
+    font-size: 25.5px;
+  }
+
+  .header {
+    height: $height-header + 230px;
+  }
+
+  .container, .container-review, .text-about-us, .width-445px, .width-540px {
+    width: $container-width - 41.5 * $padding;
+  }
+
+  #about-us .text {
+    font-size: 39px;
+  }  
+
+  .text-about-us {
+    height: 380px;
+  }
+
+  .ml-40, .ml-40-sm {
+    margin-left: 30px;
+  }
+
+  .mt-30-smolest {
+    margin-top: 30px;
+  }
+
+  .mt-25-sm {
+    margin-top: 25px;
+  }
+
+  .mr-30 {
+    margin-right: 0;
+  }
+
+  #contact .mt-50, .mt-84, .mt-35, .mt-60, .mt-80 {
+	    margin-top: 15px;
+  }
+
+  .flex-wrap-smollest {
+    flex-wrap: wrap;
+  }
+}

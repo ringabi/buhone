@@ -1,0 +1,244 @@
+body h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  width: 589px;
+  color: $primary-color;
+  font-size: 48px;
+  line-height: 66px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 33px;
+  color: $h2-color;
+}
+
+h3 {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 69px;
+}
+
+.mt-height-header {
+  margin-top: $height-header;
+}
+
+#banner-1 a {
+  text-decoration: none;
+  color: $primary-color;
+}
+
+#contact a {
+  text-decoration: none;
+  color: $primary-color;
+}
+
+.text-color {
+  color: $text-color;
+}
+
+.banner {
+  background: no-repeat url(../images/banner-1.png);
+  padding-top: 170px;
+  padding-bottom: 113px;
+}
+
+.btn {
+  width: 270px;
+  height: 60px;
+  background: $btn-bg;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lato' sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.btn-arrow {
+  width: 60px;
+  height: 60px;
+}
+
+.filter {
+  filter: contrast(200%) invert(100%) brightness(0)
+}
+
+.bg-primary-color {
+  background-color: $primary-color;
+}
+
+.section-bg {
+  background-color: $section-bg;
+  width: 100%;
+}
+
+.bg-active {
+  background-color: $btn-bg;
+}
+
+.our-services-item-active {
+  background: no-repeat linear-gradient(0deg, rgba(0, 95, 163, 0.65), rgba(0, 95, 163, 0.65)), no-repeat url(../images/our-services-item.png);
+}
+
+.our-services-item {
+  background: no-repeat linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/our-services-item.png);
+}
+  
+.size-item {
+  width: 350px;
+  height: 360px;
+}
+
+#our-services .text {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 30px;
+  color: $primary-color;
+  width: 187px;
+  height: 54px;
+  margin: 261px 118px 45px 45px;
+}
+
+#about-us a {
+  color: $btn-bg;
+}
+
+.text-about-us {
+  width: 445px;
+  height: 245px;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  color: $secondary-color;
+}
+
+#about-us .text {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 40px;
+    color: $btn-bg;
+}
+
+.size-cases {
+  width: 255px;
+  height: 255px;
+}
+
+.number {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 66px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase; 
+}
+
+.text-cases {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  width: 115px;
+}
+
+.microsoft {
+  background: no-repeat url(../images/microsoft.png);
+  width: 255px;
+  height: 130px;
+}
+
+.container-review {
+  width: 920px;
+  padding: 45px 95px 45px 95px;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+#contact .text {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.banner-2 {
+  background: no-repeat url(../images/banner-2.png);
+  padding-top: 122px;
+  padding-bottom: 140px;
+}
+
+.line {
+  height: 0;
+  border: 1px solid $primary-color;
+}
+
+.width-255px {
+  width: 255px;
+}
+
+.width-540px {
+  width: 540px;
+}
+
+.width-445px {
+  width: 445px;
+}
+
+.text-lato-14-19 {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.text-lato-16-22 {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.text-lato-18-25 {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.text-lato-21-29 {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 29px;
+}
+
+#contact .input {
+  color: $h2-color;
+  background: none;
+  border: none;
+}

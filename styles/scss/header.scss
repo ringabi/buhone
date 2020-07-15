@@ -1,0 +1,67 @@
+header a {
+  text-decoration: none;
+  color: $menu-color;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; 
+  height: $height-header;
+  z-index: 1;
+}
+
+.container {
+  width: $container-width;
+  margin: 0 auto;
+}
+
+.logo {
+  background: no-repeat url(../images/logo-half-left.png), no-repeat url(../images/logo-half-right.png);
+  width: 34.07px;
+  height: 34.41px;
+}
+
+.menu {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.buhone {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 50px;
+  color: $btn-bg; 
+}
+
+.clock-face {
+  background: no-repeat url(../images/clock-face.png);
+  width: 17px;
+  height: 17px;
+}
+
+.mail-envelope {
+  background: no-repeat url(../images/outline-mail-envelope.png);
+  width: 22.34px;
+  height: 17px;
+}
+
+.text {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.location-icon {
+  background: no-repeat url(../images/oval-location-icons.png);
+  width: 12.46px;
+  height: 17px;
+}

@@ -1,0 +1,19 @@
+@media(max-width: 1250px) {
+  .container {
+    width: $container-width - 6.3 * $padding;
+  }
+
+  .size-item {
+    width: 308px;
+    height: 315.79px;
+  }
+
+  #our-services .text {
+    margin: 229px 84px 35px 35px; 
+  }
+
+  .container-review {
+    width: $container-width - 8.3 * $padding; 
+    padding: 45px 20px 45px 20px;
+  }
+}

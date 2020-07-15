@@ -1,0 +1,68 @@
+@media(max-width: 1023px) {
+  .header {
+    height: $height-header + 80px;
+  }  
+
+  .container, .width-540px {
+    width: $container-width - 19.1 * $padding;
+  }
+
+  .f-direction-column-md {
+    flex-direction: column;
+  }
+
+  .justify-content-center-md {
+    justify-content: center;
+  }
+
+  .flex-wrap-md {
+    flex-wrap: wrap;
+  }
+
+  .text-about-us {
+    width: $container-width - 19.1 * $padding;
+    height: 145px;
+  }
+
+  .container-review {
+    width: $container-width - 19.1 * $padding;
+    padding: 35px 0;
+  }
+
+  .banner-2 {
+    background-size: auto auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .mt-height-header {
+    margin-top: $height-header + 80px;
+  }
+
+  .mt-30-md {
+    margin-top: 30px;
+  }
+
+  .mt-22 {
+    margin-top: 0;
+  }
+
+  .my-22-33-md {
+    margin-top: 22px;
+    margin-bottom: 33px;
+  }
+
+  #our-services .mx-30 {
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .py-140, .py-100 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  #contact .mt-50, .mt-84, .mt-35, .mt-60, .mt-80 {
+    margin-top: 30px;
+  }  
+}

@@ -1,0 +1,84 @@
+@media(max-width: 767px) {
+  h1, h3  {
+    width: $container-width - 36.25 * $padding;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  #contact h3 {
+    line-height: 30px;
+  }
+
+  #our-services h3 {
+    font-size: 35px;
+  }
+
+  .header {
+    height: $height-header + 160px;
+  }
+	
+  .container, .container-review, .width-445px, .width-540px {
+    width: $container-width - 36.25 * $padding;
+  }
+
+  .text-about-us {
+    width: $container-width - 36.25 * $padding;
+    height: 265px; 
+  }
+
+  .flex-wrap-sm {
+    flex-wrap: wrap;
+  }
+
+  .justify-content-center-sm {
+    justify-content: center;
+  }
+
+  .f-direction-column-sm {
+    flex-direction: column;
+  }
+
+  .banner-2 {
+    background-size: auto auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .mt-height-header {
+    margin-top: $height-header + 160px;
+  }
+
+  .mt-30-sm {
+    margin-top: 30px;
+  }
+
+  .mt-20-sm {
+    margin-top: 20px;
+  }
+
+  .mr-25-sm {
+    margin-right: 25px;
+  }
+
+  #reviews .ml-95 {
+    margin-left: 0;
+  }
+
+  #our-services .mx-30 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  #contact .ml-45 {
+    margin-left: 0;
+  }
+
+  #contact .mt-50, .mt-84, .mt-35, .mt-60, .mt-80 {
+    margin-top: 20px;
+  }
+
+  .mx-auto-sm {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

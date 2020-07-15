@@ -1,0 +1,49 @@
+@media(max-width: 424px) {
+  h1, h3  {
+    width: $container-width - 38.75 * $padding;
+    font-size: 48px / 1.4;
+    line-height: 66px / 1.4;
+  }
+
+  .header {
+    height: $height-header + 125px;
+  }
+
+  .header {
+    position: relative;
+    height: auto;
+  }
+
+  #our-services h3 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .container, .container-review, .text-about-us, .width-445px, .width-540px {
+    width: $container-width - 38.75 * $padding;
+  }
+
+  #about-us .text {
+    font-size: 42px;
+  }
+
+  .text-about-us {
+    height: 305px;
+  }
+
+  #about-us .ml-40 {
+    margin-left: 20px;
+  }
+
+  .mt-height-header {
+    margin-top: 0;
+  }
+
+  .mt-20-smoller {
+    margin-top: 20px;
+  }
+
+  .ml-40-sm {
+    margin-left: 40px;
+  }
+}
