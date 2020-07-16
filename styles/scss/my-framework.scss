@@ -67,44 +67,24 @@
   margin: 0;
 }
 
-.mt-100 {
-  margin-top: 100px;
+$margin-top: 100, 80, 70, 60, 50, 40, 30, 20, 10;
+
+@each $number in $margin-top {
+  .mt-#{$number} {
+    margin-top: #{$number}px;
+  }
 }
 
 .mt-84 {
   margin-top: 84px;
 }
 
-.mt-80 {
-  margin-top: 80px;
-}
-
-.mt-70 {
-  margin-top: 70px;
-}
-
-.mt-60 {
-  margin-top: 60px;
-}
-
 .mt-57 {
   margin-top: 57px;
 }
 
-.mt-50 {
-  margin-top: 50px;
-}
-
-.mt-40 {
-  margin-top: 40px;
-}
-
 .mt-35 {
   margin-top: 35px;
-}
-
-.mt-30 {
-  margin-top: 30px;
 }
 
 .mt-24 {
@@ -115,16 +95,8 @@
   margin-top: 22px;
 }
 
-.mt-20 {
-  margin-top: 20px;
-}
-
 .mt-15 {
   margin-top: 15px;
-}
-
-.mt-10 {
-  margin-top: 10px;
 }
 
 .mr-30 {
